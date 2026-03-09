@@ -1,0 +1,45 @@
+.sales-page {
+    background-color: #f8f9fa;
+    color: #212529;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sales-page h1 {
+    color: #007bff;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.sales-page p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .sales-page {
+        padding: 10px;
+    }
+    .sales-page h1 {
+        font-size: 2em;
+    }
+    .sales-page p {
+        font-size: 1em;
+    }
+}
